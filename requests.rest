@@ -1,5 +1,5 @@
 // USUARIO
-POST http://localhost:3003/user/signup
+POST https://musical-awards.herokuapp.com/user/signup
 Content-Type: application/json
 
 {
@@ -11,7 +11,7 @@ Content-Type: application/json
 
 ###
 # @name login
-POST http://localhost:3003/user/login
+POST https://musical-awards.herokuapp.com/user/login
 Content-Type: application/json
 
 {
@@ -20,7 +20,7 @@ Content-Type: application/json
 }
 
 ### tickets --------------------------------------
-POST http://localhost:3003/ticket/create
+POST https://musical-awards.herokuapp.com/ticket/create
 Content-Type: application/json
 Authorization: {{login.response.body.Token}}
 
@@ -29,13 +29,13 @@ Authorization: {{login.response.body.Token}}
 }
 
 ### 
-DELETE  http://localhost:3003/ticket/delete/c8f83713-90b8-4b0c-bf9e-de34c90375eb
+DELETE  https://musical-awards.herokuapp.com/ticket/delete/c8f83713-90b8-4b0c-bf9e-de34c90375eb
 Authorization: {{login.response.body.Token}}
 
 
 ### SHOW ------------------------------------------------------
 
-POST http://localhost:3003/show/create
+POST https://musical-awards.herokuapp.com/show/create
 Content-Type: application/json
 Authorization: {{login.response.body.Token}}
 
@@ -45,6 +45,6 @@ Authorization: {{login.response.body.Token}}
 }
 
 ###
-GET http://localhost:3003/show/
+GET https://musical-awards.herokuapp.com/show/
 
 

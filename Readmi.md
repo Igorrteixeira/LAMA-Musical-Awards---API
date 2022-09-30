@@ -4,6 +4,8 @@
 
 Suas principais funcionalidades são: Cadastrar usuario, criar um novo show, visualizar shows criados e se ainda a ingressos, reserva de ingressos e cancelamento.
 
+***Projeto criado usando paradigma POO testes com jest suas demais tecnologias no final da documentação.***
+
 ### Como usar 
 
 ### Usuario 
@@ -50,3 +52,8 @@ Suas principais funcionalidades são: Cadastrar usuario, criar um novo show, vis
 
 ### Documentação do Postaman
 
+https://documenter.getpostman.com/view/21555253/2s83tCLZAa
+
+### Link Heroku
+
+https://musical-awards.herokuapp.com/
